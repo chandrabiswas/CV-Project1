@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+::selection{
+    color: white;
+    background-color: orange;
+}
+body{
+    background:#EEE;
+    font-family: 'Roboto', sans-serif;
+}
+.contentiner{
+    max-width: 1000px;
+    background-color: #E4F9F5;
+    margin: 0 auto;
+    padding: 20px;
+}
+.profile-image{
+    width: 100px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid white;
+    float: left;
+}
+.name{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: teal;
+}
+.contact{
+    float: right;
+    padding: 30px;
+}
+.contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    width: 100%;
+    border-bottom: none;
+    margin: 20px auto;
+}
+/*--------------
+personal-information
+-----------------*/
+
+#personal-information{
+
+}
+.content-m{
+    margin-bottom: 30px;
+}
+.div-left{
+    float: left;
+    width: 30%;
+}
+.div-right-per{
+    float: left;
+    width: 70%;
+    text-align: justify;
+
+}
+
+p{
+    padding: 3px;
+}
+.common-hr{
+    border: 1px solid black;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+/*--------------------
+Table Tag-------------
+--------------------*/
+table{
+    border: 2px solid black;
+    width: 100%;
+    border-collapse: collapse;
+
+}
+th,td{
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+}
+th{
+    background-color: darkgreen;
+    color: white;
+    vertical-align: middle;
+}
+.div-right-per ul{
+    list-style-type: disc;   
+}
+.div-right-per ul li{
+    padding: 5px;
+}
+span{
+    font-weight: bold;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+    margin-right: 200px;
+}
+
+/*--------------------
+Footer Start----------
+---------------------*/
+.bottom-container{
+    background-color: #3CB371;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.bottom-container a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+.bottom-container p{
+    color: white;
+    margin-top: 20px;
+
+}
+.bottom-container a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+/*--------------
+Navigation Menu-
+---------------*/
+
+.nav-menu{
+    width: 100%;
+    height: 80px;
+    background-color: #3CB371;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.nav-menu ul{
+
+}
+.nav-menu ul li{
+    list-style-type: none;
+    float: left;
+    margin: 20px;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 63px;
+}
+.nav-menu ul li a:hover{
+    background-color: tomato;
+    color: seagreen;
+    text-decoration: underline;
+}
